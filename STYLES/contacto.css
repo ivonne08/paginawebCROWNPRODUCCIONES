@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fruktur&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./pngfondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow:hidden ;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family:'Concert One', cursive;
+    color: black;
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgba(117, 114, 114, 0.65);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main{
+    margin: 40px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.textored{
+    font-family:'Concert One', cursive;
+    font-size: 2em;
+    text-align:justify ;
+    padding-left: 200px;
+    margin: 2px;
+}
+#InformacionR{
+    border: 20px solid rgb(103, 138, 233);
+    border-radius: 20px;
+    margin: 10px;
+}
+.logos{
+    height: 75px;
+    width: 75px;
+}
+#textoFinal{
+    border: 20px solid rgb(115, 42, 128);
+    border-radius: 20px;
+    margin: 80px;
+    text-align: center;
+}
+h3{
+    font-family:'Concert One', cursive;
+    font-size: 3rem;
+}
+h6{
+    font-family:'Concert One', cursive;
+    font-size: 2rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+.fotofinal{
+    border: 15px solid rgb(88, 138, 73);
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+}
+.ftfinal{
+    font-family:'Concert One', cursive;
+    font-size: 1.5em;
+    padding: 1%;
+    text-align: center;
+}

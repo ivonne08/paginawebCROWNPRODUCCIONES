@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./fondonuevo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+img{
+    height: 150px;
+    width: 300px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(117, 114, 114, 0.65);
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Concert One', cursive;
+}
+label{
+    margin: 5px;
+    font-family: 'Concert One', cursive;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Concert One', cursive;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+input{
+    padding: 3px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
